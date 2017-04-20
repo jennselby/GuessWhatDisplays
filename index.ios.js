@@ -9,11 +9,12 @@ import {
   AppRegistry,
 } from 'react-native';
 import Variables from './variables.js';
+import Functions from './functions.js';
 
 export default class GuessWhatDisplays extends Component {
   render() {
     return (
-      <Variables />
+      <Functions />
     );
   }
 }
