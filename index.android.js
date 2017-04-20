@@ -8,13 +8,12 @@ import React, { Component } from 'react';
 import {
   AppRegistry,
 } from 'react-native';
-import Variables from './variables.js';
-import Functions from './functions.js';
+import ExerciseNavigator from './exerciseNavigator.js';
 
 export default class GuessWhatDisplays extends Component {
   render() {
     return (
-      <Functions />
+      <ExerciseNavigator />
     );
   }
 }
